@@ -83,7 +83,7 @@
 /********** break and bread CSS **********/
 body
 {
-    background-color:#f27e3e;
+    background-color:#c18e5e;
     
     font-weight: 800px;
      font-family: "Zain", sans-serif ;
@@ -92,7 +92,6 @@ body
 
 :root {
     --primary: rgba(255, 255, 255, 0.979);
-    --light: #f27e3e;
     --dark: #;
 }
 
@@ -528,23 +527,20 @@ body
 }
 .contaibg
 {
-    background-color: #f27e3e;
+    background-color: ;
     margin-bottom: 0px;
     
     
 }
 .contaibg
 {
-background-color: #f27e3e;
+background-color:;
 }
 span
 {
     
 }
-.bdybg
-{
-    background-color:  #f27e3e;
-}
+
 
 
 .text-clrbreak
@@ -630,10 +626,8 @@ mainl
 
 .mainitem
 {
-    background-color: #f27e3e;
     height: 100%;
-    width: 100%;
-   
+    width: 100%;  
     margin-bottom: 0px;
     font-size: large;
     padding-bottom: 0;
@@ -666,7 +660,6 @@ mainl
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-    background-color: #f27e3e;
     height: 100;
     width: 100;
     font-weight: 800px;
@@ -676,7 +669,7 @@ mainl
 {
     margin-top: 0px;
     border: 0px;
-    color: #414142;
+    color: #5c2d35;
     font-weight: 800px;
 }
 
@@ -747,7 +740,7 @@ mainl
     position: fixed;
     bottom: 10px;
     width: 95%;
-    background-color: #414142;
+    background-color: #5c2d35;
     color: white;
     text-align: center;  
     justify-content: center;
@@ -839,7 +832,7 @@ margin-top: 10px;
 }
 .multiitemss
 {
-    background-color: #414142;
+    background-color: #5c2d35;
     border-radius: 10px;
     color: white;
     font-family: "Tajawal", sans-serif;
@@ -900,4 +893,8 @@ margin-top: 10px;
 .featslide
 {
    margin-top: 0px;
+}
+.heroimge
+{
+    border-radius: 10px;
 }
