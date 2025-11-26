@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>فروعنا | العزيزية - الفيصلية - القطيف - الحمراء</title>
+  <!-- استدعاء خط Tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- مكتبة الأيقونات -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
@@ -14,31 +16,39 @@
       --maroon-light: #651c1c; /* نبيتي أفتح */
     }
     body {
-      margin:0; font-family:"Tajawal",sans-serif;
-      background:var(--beige-light); color:var(--maroon-dark);
+      margin:0; 
+      font-family:"Tajawal", sans-serif; /* الخط كله Tajawal */
+      background:var(--beige-light); 
+      color:var(--maroon-dark);
     }
     header {
-      background:var(--maroon-dark); color:var(--beige-light);
-      padding:16px; text-align:center;
+      background:var(--maroon-dark); 
+      color:var(--beige-light);
+      padding:16px; 
+      text-align:center;
     }
     header h1 {margin:0;font-size:22px}
     header p {margin:4px 0 0;font-size:14px}
     .grid {
-      display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:16px; padding:20px;
+      display:grid; 
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:16px; 
+      padding:20px;
     }
     .card {
       background:var(--beige-dark);
-      border-radius:16px;              /* زوايا أنعم */
+      border-radius:16px;              
       padding:16px;
-      box-shadow:0 2px 8px rgba(0,0,0,.15); /* ظل بسيط */
-      display:flex; flex-direction:column; gap:10px;
-      border:1px solid rgba(91, 10, 10, 0.3); /* بورد رفيع وشفاف */
+      box-shadow:0 2px 8px rgba(0,0,0,.15); 
+      display:flex; 
+      flex-direction:column; 
+      gap:10px;
+      border:1px solid rgba(91, 10, 10, 0.3); 
       transition:transform .2s, box-shadow .2s;
     }
     .card:hover {
       transform:translateY(-3px);
-      box-shadow:0 6px 16px rgba(0,0,0,.25); /* ظل أجمل عند الهوفر */
+      box-shadow:0 6px 16px rgba(0,0,0,.25); 
     }
     .card h3 {margin:0;font-size:18px;color:var(--maroon-dark)}
     .meta {font-size:14px;color:var(--maroon-light)}
@@ -50,6 +60,7 @@
       border-radius:8px; color:var(--beige-light); text-decoration:none;
       font-size:16px; transition:.2s;
       display:flex; align-items:center; justify-content:center; gap:6px;
+      font-family:"Tajawal", sans-serif; /* تأكيد أن الأزرار أيضًا Tajawal */
     }
     .btn:hover {opacity:.85}
     .call {background:var(--maroon-dark)}
